@@ -1,0 +1,37 @@
+﻿<!-- این برنامه توسط دکتر رضا زعفرانیه تهیه شده است -->
+<!-- زبان برنامه نویسی جی.کوئری موبایل  -->
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+		<div data-role="page" id="pageَAsli">
+			 <div data-role="main" class="ui-content">
+				<p>سلام ، دکتر رضا زعفرانیه هستم. به وبگاه من خوش آمدید</p>
+				<div data-role="controlgroup" data-type="horizontal">
+					  <a href="#pageResume" class="ui-btn">دکمه رفتن به صفحه رزومه کاری</a>
+					  <a href="#pageFavourite" class="ui-btn">دکمه رفتن به صفحه علاقه مندی ها</a>
+					  <a href="#pageContact" class="ui-btn">دکمه رفتن به صفحه تماس </a>
+				</div>
+			 </div>
+		</div>
+		  <!-- صفحه رزومه با بازگشت لینک ساده  -->
+		<div data-role="page"     id="pageResume">
+			<div data-role="main" class="ui-content">
+			   <p>در این صفحه با رزومه کاری و تحصیلی من آشنا می شوید</p>
+			   <a href="#pageَAsli">به صفحه اصلی سایت برگرد</a>
+			 </div>
+		 </div>
+		 <!-- صفحه علاقه مندی ها با بازگشت لینک دکمه ای  -->
+		 <div data-role="page"     id="pageFavourite">
+			<div data-role="main" class="ui-content">
+			   <p>در این صفحه با علاقه مندی های من آشنا می شوید</p>
+				<a href="#" class="ui-btn" data-rel="back">به صفحه اصلی سایت برگرد</a>
+			 </div>
+		</div>
+</body>
+</html>

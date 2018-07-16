@@ -1,0 +1,54 @@
+﻿<!-- این برنامه توسط دکتر رضا زعفرانیه تهیه شده است -->
+<!-- زبان برنامه نویسی جی.کوئری موبایل  -->
+﻿<!DOCTYPE html>
+<html>
+<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+     	<form method="post" action="resume.html">
+		    <fieldset data-role="controlgroup"  >
+			<legend>نظرات و پیشنهادات:</legend>
+					<div class="ui-field-contain">
+						<label for="fname">نام :</label>
+						<input type="text" name="fname" id="fname"  placeholder="نام... ">
+						<label for="lname">نام خانوادگی:</label>
+						<input type="text" name="lname" id="lname"  placeholder="نام خانوادگی... " >
+						<label for="bday">تاریخ تولد:</label>
+						<input type="date" name="bday" id="bday">
+						<label for="email">پست الکترونیک:</label>
+						<input type="email" name="email" id="email" placeholder="پست الکترونیک...">
+						<label for="proposal">نظرات و پیشنهادات:</label>
+						<textarea name="proposal" id="proposal"></textarea>
+						<label for="search">جستجو:</label>
+						<input type="search" name="search" id="search">
+						
+						<fieldset data-role="controlgroup">
+							<legend>جنسیت:</legend>
+							<label for="male">مرد</label>
+							<input type="radio" name="gender" id="male" value="male">
+							<label for="female">زن</label>
+							<input type="radio" name="gender" id="female" value="female"> 
+						</fieldset>
+					
+					   <fieldset data-role="controlgroup"  >
+				     	    <legend>نظر سنجی سایت:</legend>
+							 <label for="1">طراحی و واسط کاربر مناسب</label>
+                             <input type="checkbox" name="nazar" id="1" value="1">
+							  <label for="2">محتوای علمی</label>
+							  <input type="checkbox" name="nazar" id="2" value="2">
+							  <label for="3">زبان فنی و کارا</label>
+							  <input type="checkbox" name="nazar" id="3" value="3">
+							  <label for="4">دسترسی راحت به محتوا</label>
+							  <input type="checkbox" name="nazar" id="4" value="4"> 
+						</fieldset>
+						
+				  </div>
+			</fieldset>
+         </form>
+</body>
+</html>
+	

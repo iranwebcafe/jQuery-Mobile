@@ -1,0 +1,55 @@
+﻿<!-- این برنامه توسط دکتر رضا زعفرانیه تهیه شده است -->
+<!-- زبان برنامه نویسی جی.کوئری موبایل  -->
+﻿<!DOCTYPE html>
+<html>
+<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<style>
+                th { border: 1px solid #d6d6d6;  background:white;     }
+                thead {   color: red;        }
+		     	td:nth-child(even) {   border: 1px solid #d6d6d6;  background:bisque;   }
+			    td:nth-child(odd) {    border: 1px solid #d6d6d6;  background:yellow;   }
+       </style>
+</head>
+<body>
+	    <table data-role="table" data-mode="columntoggle" class="ui-responsive   ui-shadow"
+		data-column-btn-text="برای نمایش یا عدم نمایش ستون ها کلیک کنید" id="myTable">
+			  <thead>
+					<tr>
+					  <th data-priority="6">شناسه مشتری</th>
+					  <th>نام مشتری</th>
+					  <th data-priority="1">نام قرارداد</th>
+					  <th data-priority="2">آدرس</th>
+					  <th data-priority="3">شهر</th>
+					  <th data-priority="4">کد پستی</th>
+					  <th data-priority="5">کشور</th>
+					</tr>
+			  </thead>
+			  <tbody>
+					<tr>
+					  <td>1</td>
+					  <td>علی  اکبری</td>
+					  <td>فاز سوم</td>
+					  <td> نیاوران خ ششم </td>
+					  <td>تهران</td>
+					  <td>12209444</td>
+					  <td>ایران</td>
+					</tr>
+			  
+					<tr>
+					  <td>2</td>
+					  <td>رضا شمسایی</td>
+					  <td>فاز چهارم</td>
+					  <td> نیاوران خ هشتم </td>
+					  <td>تهران</td>
+					  <td>12209555</td>
+					  <td>ایران</td>
+					</tr>
+			  </tbody>
+		</table>
+</body>
+</html>
+		

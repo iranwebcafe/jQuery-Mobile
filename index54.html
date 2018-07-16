@@ -1,0 +1,28 @@
+﻿<!-- این برنامه توسط دکتر رضا زعفرانیه تهیه شده است -->
+<!-- زبان برنامه نویسی جی.کوئری موبایل  -->
+﻿<!DOCTYPE html>
+<html>
+<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline">برای ورود کلیک نمایید</a>
+	<div data-role="popup" id="myPopup" class="ui-content">
+	    <form method="post" action="login.html">
+		    <div>
+				  <h3>اطلاعات ورود به سامانه :</h3>
+				  <label for="usrnm" class="ui-hidden-accessible">نام کاربری:</label>
+				  <input type="text" name="user" id="usrnm" placeholder="نام کاربری...">
+				  <label for="pswd" class="ui-hidden-accessible">رمز عبور:</label>
+				  <input type="password" name="passw" id="pswd" placeholder="رمز عبور...">
+				  <input type="reset" value="دکمه انصراف">
+				  <input type="submit" value="دکمه قبول">
+		     </div>
+	    </form>
+	</div>
+ </body>    	
+</html>
+	

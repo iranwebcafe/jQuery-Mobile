@@ -1,0 +1,33 @@
+﻿<!-- این برنامه توسط دکتر رضا زعفرانیه تهیه شده است -->
+<!-- زبان برنامه نویسی جی.کوئری موبایل  -->
+﻿<!DOCTYPE html>
+<html>
+<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		
+</head>
+<body>
+	<form method="post" action="DaysForm.html">
+			<fieldset class="ui-field-contain">
+				<label for="day">روز را انتخاب کنید:</label>
+				<select name="day" id="day" multiple="multiple" data-native-menu="false" >
+					<optgroup label="روز های کاری">
+							  <option value="sat">شنبه</option>
+							  <option value="sun">یکشنبه</option>
+							  <option value="mon">دوشنبه</option>
+							  <option value="tue">سه شنبه</option>
+							  <option value="wed">چهارشنبه</option>
+					 </optgroup>
+					 <optgroup label="روزهای تعطیلی">
+							  <option value="thr">پنج شنبه</option>
+							  <option value="fri">جمعه</option>
+					 </optgroup>
+				</select>
+			</fieldset>
+	</form>
+ </body>    	
+</html>
+	
